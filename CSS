@@ -1,0 +1,190 @@
+*{
+    background-color: black;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    
+}
+
+nav .left{
+    display: flex;
+    
+}
+
+nav .right{
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+nav .left ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+nav .right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+nav .right ul li{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+.right ul > li input{
+    background-color: #fff;
+    border: none;
+    margin: 10px;
+    height: 35px;
+    border-radius: 8px;
+    color: black;
+
+}
+#dp {
+    border-radius: 30%;
+    height: 55px;
+    width: 55px;
+    
+
+}
+
+.left ul li{
+    margin:10px;
+}
+
+nav img{
+    height: 75px;
+    width: 100px;
+}
+
+nav > ul{
+
+}
+
+.poster{
+    height: 80vh;
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.poster img{
+    height: 100%;
+    width: 100%;
+}
+
+
+a {
+    color: rgb(196, 191, 191); /* Default color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color:white; 
+}
+
+
+
+
+main {
+    padding: 20px;
+    margin-top: 90px; 
+}
+
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.movies {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.movie {
+    flex: 0 0 auto; 
+    
+}
+
+.movie img {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 8px; 
+    transition: transform 0.3s ease;
+}
+
+.movie img:hover {
+    transform: scale(1.05); 
+}
+
+
+/*footer*/
+
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-info {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
